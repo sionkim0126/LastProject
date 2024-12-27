@@ -1,0 +1,411 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#wrap {
+  width: 1480px;
+  margin: 5px auto;
+}
+#header {
+  width: 100%;
+}
+#header > #h1{
+  height: 200px;
+	display: flex;
+	width: 100%;
+	position: relative;
+}
+#header> #h1> .logo {
+  height: 100px;
+  width: 200px; /* 로고를 전체 폭으로 설정 */
+  margin: 0 auto;
+}
+#header> #h1> .member{
+	position: absolute;
+  margin-left: 85%;
+  margin-top: 5px;
+	
+}
+#header> #h1> .member > p{
+	display: inline-block;
+}
+#header> #h1> .member > p > a{
+	color: black;
+	font-weight: bold;
+  text-decoration: none;
+}
+
+.nav {
+  height: 50px;
+  
+  width: 100%; /* 네비게이션 바를 전체 폭으로 설정 */
+  border-bottom: 2px solid black;
+}
+#header .nav > ul{
+  list-style: none;
+  display: flex;
+}
+#header .nav > ul > li{
+  margin: 3px auto;
+  
+  list-style: none;
+  position: relative;
+  width: 170px;
+  text-align: center;
+}
+#header .nav > ul > li >a {
+  font-size: 20px;
+  width: 170px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  color: black;
+}
+
+.nav > ul > li > ul{
+  display: none;
+  list-style: none;
+  position: absolute;
+  width: 100%;
+}
+
+.nav > ul > li > ul > li{
+  background-color: rgb(19, 19, 9);
+  width: 170px;
+  padding: 10px;
+}
+.nav > ul > li > ul > li > a{
+  text-decoration: none;
+  color: white;
+}
+.nav > ul > li > ul > li:hover{
+  background-color: gray;
+}
+.indexcon{
+  display: flex;
+  width: 1480px;
+}
+ .img{
+  margin: 90px 0;
+  width: 650px;
+  height: 700px;
+  display: inline-block;
+}
+.img > img {
+  width: 650px;
+  height: 700px;
+}
+.text1{
+  margin: 90px 10px;
+  margin-bottom: 0;
+  
+  height: 350px;
+  width: 800px;
+  text-align: center;
+
+}
+ #t1{
+  font-size: 32px;
+  font-weight: bold;
+  padding: 30px;
+}
+
+ #t2{
+  font-size: 38px;
+  font-weight: bold;
+  padding: 30px;
+}
+#t3{
+  font-size: 35px;
+  font-weight: bold;
+  padding: 30px;
+}
+
+ .content3{
+  height: 340px;
+  margin:10px;
+  margin-bottom: 0;
+  width: 800px;
+  background-color: gray;
+}
+
+#contents > .logincon{
+		
+		width: 900px;
+  		height: 500px;
+  		margin: 90px auto;
+  		text-align: center;
+  		padding: 5px;
+  		line-height: 80px;
+  		border: 2px solid rgb(211, 206, 206);
+	}
+	#button{
+	padding: 5px;
+	margin: 5px;
+	width: 100px;
+	height:35px;
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+	}
+
+#contents > .joincon{
+  width: 900px;
+  height: 1100px;
+  margin: 90px auto;
+  text-align: center;
+  padding: 5px;
+  line-height: 80px;
+  border: 2px solid rgb(211, 206, 206);
+}
+.jointable{
+  width: 800px;
+  border: 1px solid black;
+  justify-content: left;
+}
+th{
+  margin: 0;
+  padding: 0;
+}
+#input {
+    width: 400px; /* 너비 */
+    height: 50px; /* 높이 */
+    padding: 5px; /* 내부 여백 */
+    font-size: 16px; /* 글자 크기 */
+  }
+.inputpost{
+	width: 400px; /* 너비 */
+    height: 50px; /* 높이 */
+    padding: 5px; /* 내부 여백 */
+    font-size: 16px; /* 글자 크기 */
+	
+}.inputpost1{
+	width: 300px; /* 너비 */
+    height: 50px; /* 높이 */
+    padding: 5px; /* 내부 여백 */
+    font-size: 16px; /* 글자 크기 */
+	
+}
+#Minput {
+	margin: 0 10px;
+    width: 300px; /* 너비 */
+    height: 50px; /* 높이 */
+    padding: 5px; /* 내부 여백 */
+    font-size: 16px; /* 글자 크기 */
+  }
+  #MinputR {
+	margin: 0 10px;
+    width: 300px; /* 너비 */
+    height: 50px; /* 높이 */
+    padding: 5px; /* 내부 여백 */
+    font-size: 16px; /* 글자 크기 */
+  }
+.Minputpost{
+	width: 300px; /* 너비 */
+    height: 50px; /* 높이 */
+    padding: 5px; /* 내부 여백 */
+    font-size: 16px; /* 글자 크기 */
+	
+}.Minputpost1{
+	width: 200px; /* 너비 */
+    height: 50px; /* 높이 */
+    padding: 5px; /* 내부 여백 */
+    font-size: 16px; /* 글자 크기 */
+	
+}
+.button{
+	width: 100px;
+	height:35px;
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+}
+.search{
+	line-height: 30px;
+	width: 100%;
+	height: 80px;
+}
+
+.artlist{
+  margin: 90px auto;
+  width: 1600px;
+  text-align: center;
+  box-sizing: content-box;
+  text-align: center;
+}
+.arts{
+  width: 230px;
+  margin: 10px;
+  padding: 15px;
+  display:inline-block;
+}
+.arts-h{
+  width: 220px;	
+  border-bottom: 2px solid gray;
+  justify-content: center;
+}
+.arts-h> p > a{
+	text-decoration: none;
+	color: black;
+	padding: 3px;
+}
+.arts-b > p > a{
+	text-decoration: none;
+	color: black;
+}
+#lists{
+  width: 60%;
+  margin:0 auto;
+}
+.arts-b{
+	text-align: center;
+}
+.auctionList{
+  margin: 90px auto;
+  width: 1600px;
+  height: 1850px;
+  padding: 3px;
+  text-align: center;
+}
+
+.A-arts{
+  margin: 0 auto;
+  width: 1200px;
+  height: 500px;
+  border: 1px solid rgb(201, 200, 200);
+  border-radius: 5px;
+  display: flex;
+}
+#A-lists{
+  margin: 25px 40px;
+  width: 350px;
+  height: 450px;
+}
+.artsP{
+  background-color: whitesmoke;
+  width: 500px;
+  height: 450px;
+  margin: 25px 0;
+  padding: 10px;
+  line-height: 45px;
+  font-size: 18px;
+}
+.tistP{
+  margin: 40px auto;
+  text-align: center;
+}
+#rpsw{
+  margin: 5px;
+  width: 120px;
+  height: 120px;
+  display: block;
+}
+
+.inauctions{
+  margin: 40px auto;
+  width: 900px;
+  padding: 20px;
+  text-align: center;
+  box-sizing: content-box;
+}
+.auc_img{
+	width: 400px;
+	box-sizing: border-box;
+}
+#auc_img{
+  width: 70%;
+  box-shadow:15px 18px 5px grey;
+}
+.aucP1{
+  margin: 60px auto;
+  display: flex;
+  width: 700px;
+}
+.aucP1 > p{
+  margin: 20px 50px;
+}
+.aucP2{
+  border-top: 3px solid black;
+  width: 700px;
+  height: 260px;
+  line-height: 45px;
+  font-size: 18px;
+  margin: 1px auto;
+}
+.priceP{
+  padding: 10px;
+  width: 700px;
+  height: 100px;
+  margin: 5px auto;
+}
+.priceP > table{
+  width: 400px;
+  padding: 10px;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.shopcon{
+  margin: 170px auto;
+  width: 850px;
+  height: 800px;
+  border: 2px solid rgb(77, 77, 77);
+  border-radius: 5px;
+  position: relative;
+  padding: 1px;
+}
+.shopcon > a{
+	text-decoration: none;
+	color: black;
+}
+.shopcon > h2{
+  text-align: center;
+  margin: 20px;
+}
+.sh_img{
+  width: 380px;
+  height: 450px;
+  margin: 30px;
+  box-shadow:15px 18px 5px grey;
+}
+.sh_img > img{
+  width: 380px;
+  height: 450px;
+}
+.shP{
+  font-weight: bold;
+  width: 350px;
+  height: 400px;
+  padding: 20px;
+  position: absolute;
+  left: 460px;
+  border-left: 3px solid rgb(177, 175, 175);
+  
+  top: 110px;
+  line-height: 50px;
+}
+#shopbtn{
+  background-color: black;
+  border-radius: 7px;
+  color: white;
+  margin: 100px 280px;
+  font-size: 23px;
+  width: 300px;
+  height: 50px;
+}
+#shopbtn:hover{
+  background-color: rgb(34, 34, 34);
+}
+.mypagecon{
+  text-align: center;
+  width: 900px;
+  padding: 5px;
+  line-height: 80px;
+  border: 2px solid rgb(211, 206, 206);
+  margin: 90px auto;
+}
+.Mtable{
+	margin: 0 auto;
+}

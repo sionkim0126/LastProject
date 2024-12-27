@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#black{
+  width: 1899px;
+  height: 4000px;
+  background-color: #1b1b1b;
+}
+#wrap {
+  width: 1480px;
+  margin: 0px auto;
+  box-sizing: border-box;
+}
+#header {
+  width: 100%;
+}
+#header > #h1{
+  height: 200px;
+	display: flex;
+	width: 100%;
+	position: relative;
+}
+#header> #h1> .logo {
+  height: 100px;
+  width: 200px; /* 로고를 전체 폭으로 설정 */
+  margin: 0 auto;
+}
+#header> #h1> .member{
+	position: absolute;
+  margin-left: 85%;
+  margin-top: 5px;
+	
+}
+#header> #h1> .member > p{
+	display: inline-block;
+}
+#header> #h1> .member > p > a{
+	color: whitesmoke;
+	font-weight: bold;
+  text-decoration: none;
+}
+
+.nav {
+  height: 50px;
+  
+  width: 100%; /* 네비게이션 바를 전체 폭으로 설정 */
+  border-bottom: 2px solid whitesmoke;
+}
+#header .nav > ul{
+  list-style: none;
+  display: flex;
+}
+#header .nav > ul > li{
+  margin: 3px auto;
+  
+  list-style: none;
+  position: relative;
+  width: 170px;
+  text-align: center;
+}
+#header .nav > ul > li >a {
+  font-size: 20px;
+  width: 170px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  color: whitesmoke;
+}
+
+.nav > ul > li > ul{
+  display: none;
+  list-style: none;
+  position: absolute;
+  width: 100%;
+}
+
+.nav > ul > li > ul > li{
+  background-color: whitesmoke;
+  width: 170px;
+  padding: 10px;
+}
+.nav > ul > li > ul > li > a{
+  text-decoration: none;
+  color: black;
+}
+.nav > ul > li > ul > li:hover{
+  background-color: gray;
+}
+
+.appcon{
+  width: 1000px;
+  height: 1000px;
+  background-color: gray;
+  margin: 90px auto;
+  background-image: url(app/base.jpg);
+}
+
+  
+.swiper-slide{
+	width: 1000px;
+	height: 1000px;
+}
+#simg{
+  	width: 31%;
+   	box-shadow:7px 10px 5px rgb(34, 34, 34), -7px 10px 5px rgb(24, 23, 23);
+    }
+    .swiper-button-next{
+    	color:gray;
+    }
+
+#footer >p{
+  color: white;
+}
